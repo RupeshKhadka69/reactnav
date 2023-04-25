@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.open .hamburger-line:first-child {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.open .hamburger-line:last-child {
+  transform: translateY(-8px) rotate(-45deg);
+}
